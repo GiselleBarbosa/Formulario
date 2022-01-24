@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <form action="">
+        <div class="box">
+            <fieldset>
+                <legend class="titulo-formulario">Formulário</legend>
+                <div class="dados">
+                    <div class="inputBox">
+                        <input type="text" name="nome" id="nome" class="inputUser" required>
+                        <label class="label-animation" for="nome">Nome Completo</label>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="text" name="email" id="email" class="inputUser" required>
+                        <label class="label-animation" for="email">Email</label>
+                    </div>
+
+                    <div class="inputBox">
+                        <input type="tel" name="telefone" id="telefone" class="inputUser" required>
+                        <label class="label-animation" for="telefone">Telefone</label>
+                    </div>
+                </div>
+
+                <div class="titulo-sexo"> Sexo:</div>
+
+                <div class="radio-sexo">                
+                    <form>
+                        <input type="radio" id="outros" name="genero" value="outros" quired>
+                        <label for="outros">Outros</label><br>
+    
+                        <input type="radio" id="feminino" name="genero" value="feminino" required>
+                        <label for="feminino">Feminino</label><br>
+    
+                        <input type="radio" id="masculino" name="genero" value="masculino" required>
+                        <label for="masculino">Masculino</label>
+                      </form>
+                 </div>
+
+                <div class="titulo-data-nasc">
+                    <div class="caixa-data-nasc">
+                        <label for="data-nascimento">Data de Nascimento</label>
+                        <input type="date" name="data-nascimento" id="data-nascimento" required>
+                    </div>
+                </div>
+                <div class="inputBox">
+                    <input type="text" name="text" id="text" class="inputUser" required>
+                    <label class="label-animation" for="cidade">Cidade</label>
+                </div>
+
+                <div class="inputBox">
+                    <input type="estado" name="estado" id="estado" class="inputUser" required>
+                    <label class="label-animation" for="estado">Estado</label>
+                    
+                </div>
+
+                <div class="inputBox">
+                    <input type="endereço" name="endereço" id="endereço" class="inputUser" required>
+                    <label class="label-animation" for="endereço">Endereço</label>
+                </div>
+
+                <input type="submit" name="submit" id="submit">
+            </fieldset>
+    </form>
+
+</body>
+
+</html>
